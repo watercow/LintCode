@@ -24,3 +24,4 @@ class Solution:
 
 if __name__ == '__main__':
     print(Solution().digitCounts(2,302))
+    print(Solution().digitCounts(0,19))
