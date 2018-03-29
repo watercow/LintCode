@@ -5,4 +5,5 @@ class Solution:
     """
     def nthUglyNumber(self, n):
         # write your code here
+        for i in range(n):
   
