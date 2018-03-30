@@ -31,3 +31,6 @@ class Solution:
                 backup_list.remove(UglyNum_list[i])
 
         return UglyNum_list[n-1]
+
+if __name__ == '__main__':
+    print(Solution().nthUglyNumber(9))
