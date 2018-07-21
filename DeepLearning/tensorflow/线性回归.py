@@ -42,4 +42,4 @@ print("W = ", sess.run(W)," b = ", sess.run(b)," lossess.run(b)s = ", sess.run(l
 # 执行20次train
 for step in range(20):
     sess.run(train)
-    print("W = ", sess.run(W), " b = ", sess.run(b), " loss = ", sess.run(loss))
+    print("Step = ", step + 1, " W = ", sess.run(W), " b = ", sess.run(b), " loss = ", sess.run(loss))
