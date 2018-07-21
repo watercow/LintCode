@@ -25,3 +25,21 @@ b = tf.Variable(tf.zeros([1]))
 # 预估值y
 y = W * x_data + b
 
+# y与y_data间的均方误差作为loss
+loss = tf.reduce_mean(tf.square(y-y_data))
+# 梯度下降来优化参数,learn_rate = 0.5
+optimizer = tf.train.GradientDescentOptimizer(0.5)
+# 训练过程，最小化Loss
+train = optimizer.minimize(loss)
+
+sess = tf.Session()
+
+init = tf.global_variables_initializer()
+sess.run(init)
+
+# 打印初始化的W和b
+print("W = ", sess.run(W)," b = ", sess.run(b)," lossess.run(b)s = ", sess.run(loss))
+# 执行20次train
+for step in range(20):
+    sess.run(train)
+    print("W = ", sess.run(W), " b = ", sess.run(b), " loss = ", sess.run(loss))
