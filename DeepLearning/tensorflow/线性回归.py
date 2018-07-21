@@ -20,3 +20,8 @@ plt.show()
 
 # 生成1维的W矩阵，取值[-1,1]的一个随机数
 W = tf.Variable(tf.random_uniform([1], -1.0, 1.0), name = 'W')
+# 生成1维的b矩阵，初始值0
+b = tf.Variable(tf.zeros([1]))
+# 预估值y
+y = W * x_data + b
+
