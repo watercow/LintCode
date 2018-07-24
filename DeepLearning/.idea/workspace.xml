@@ -53,8 +53,8 @@
       <file leaf-file-name="两个全连接的神经网络.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow/两个全连接的神经网络.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="874">
+              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
               <folding>
                 <element signature="e#151#174#0" expanded="true" />
               </folding>
@@ -92,10 +92,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="33" />
+    <option name="x" value="953" />
+    <option name="y" value="5" />
     <option name="width" value="2765" />
-    <option name="height" value="2107" />
+    <option name="height" value="2099" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -175,7 +175,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="19" width="1580" height="1204" extended-state="0" />
+    <frame x="545" y="3" width="1580" height="1199" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -307,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow/两个全连接的神经网络.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="874">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
           <folding>
             <element signature="e#151#174#0" expanded="true" />
           </folding>
