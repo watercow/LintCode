@@ -38,3 +38,16 @@ opt = tf.train.GradientDescentOptimizer(learning_rate=.1).minimize(loss)
 correct_prediction = tf.equal(tf.argmax(finalOutput,1), tf.argmax(y,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
 
+sess = tf.Session()
+init = tf.global_variables_initializer()
+sess.run(init)
+
+for i in range(trainingIterations):
+    batch = mnist.train.next_batch(batchSize)
+    batchInput = batch[0]
+    batchLabels = batch[1]
+    _, trainingLoss = sess.run([opt, loss],feed_dict={X:batchInput, y:batchLabels})
+    if i%1000 == 0:
+        trainAccuracy = accuracy.eval(session=sess,feed_dict={X:batchInput, y:batchLabels})
+        print("step %d, training accuracy %g" % (i, trainAccuracy))
+
