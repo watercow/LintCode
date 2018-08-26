@@ -5,4 +5,4 @@
   
   -2.机器学习：学习统计学习的代码
   
-  -3.LintCode: 算法刷题的代码
+  -3.LintCode: LintCode/LeetCode算法刷题的代码
