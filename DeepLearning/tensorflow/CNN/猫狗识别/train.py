@@ -24,5 +24,7 @@ num_classes = len(classes)
 # 20% of the data will automatically be used for validation
 validation_size = 0.2
 img_size = 64 # 图片有大有小,但全连接大小固定，所以要求输入图像大小一致，设置为h=w=64
-num_channels = 3
-train_path = 'training_data'
+num_channels = 3 # 都是彩色图.jpg文件, channel = 3
+train_path = 'training_data' # 训练数据文件夹目录
+
+# We shall load all the training and validation images and labels into memory using openCV and
