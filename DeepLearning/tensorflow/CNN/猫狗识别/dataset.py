@@ -1,4 +1,6 @@
 import cv2
+# 安装openCV 打开anaconda3的命令行，
+# 运行命令conda install --channel https://conda.anaconda.org/menpo opencv3
 import os
 import glob
 from sklearn.utils import shuffle
