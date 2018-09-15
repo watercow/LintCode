@@ -11,14 +11,33 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LintCode$LeetCode5__.coverage" NAME="LeetCode5_动态规划_最长回文子串 Coverage Results" MODIFIED="1536382985480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LintCode$LeetCode6__Z.coverage" NAME="LeetCode6_数组_Z字形转换 Coverage Results" MODIFIED="1536984873064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LeetCode6_数组_Z字形转换.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode6_数组_Z字形转换.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/LeetCode5_动态规划_最长回文子串.py" />
+        <option value="$PROJECT_DIR$/LeetCode6_数组_Z字形转换.py" />
       </list>
     </option>
   </component>
@@ -32,9 +51,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="274" />
-    <option name="y" value="38" />
-    <option name="width" value="1201" />
+    <option name="x" value="273" />
+    <option name="y" value="35" />
+    <option name="width" value="1204" />
     <option name="height" value="1036" />
   </component>
   <component name="ProjectView">
@@ -74,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.LeetCode6_数组_Z字形转换">
     <configuration name="LeetCode5_动态规划_最长回文子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LintCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,8 +113,32 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="LeetCode6_数组_Z字形转换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LintCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode6_数组_Z字形转换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.LeetCode5_动态规划_最长回文子串" />
+      <item itemvalue="Python.LeetCode6_数组_Z字形转换" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LeetCode6_数组_Z字形转换" />
         <item itemvalue="Python.LeetCode5_动态规划_最长回文子串" />
       </list>
     </recent_temporary>
@@ -151,6 +194,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LeetCode6_数组_Z字形转换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode5_动态规划_最长回文子串.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
@@ -166,16 +216,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode7_SerializeandDeserializeBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1532141492299" expanded="true" signature="508:517" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="980:989" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1520:1529" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1992:2001" ph="..." />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode5_动态规划_最长回文子串.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -192,16 +233,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode7_SerializeandDeserializeBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1532141492299" expanded="true" signature="508:517" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="980:989" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1520:1529" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1992:2001" ph="..." />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode5_动态规划_最长回文子串.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -218,16 +250,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode7_SerializeandDeserializeBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1532141492299" expanded="true" signature="508:517" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="980:989" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1520:1529" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1992:2001" ph="..." />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode5_动态规划_最长回文子串.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -258,14 +281,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode7_SerializeandDeserializeBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode6_数组_Z字形转换.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1532141492299" expanded="true" signature="508:517" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="980:989" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1520:1529" ph="..." />
-            <marker date="1532141492299" expanded="true" signature="1992:2001" ph="..." />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
