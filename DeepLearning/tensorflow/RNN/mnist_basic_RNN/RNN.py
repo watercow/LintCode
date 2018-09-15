@@ -29,5 +29,10 @@ def lstm_cell():
     return rnn.DropoutWrapper(cell, output_keep_prob=keep_prob)
 
 # 堆叠两层LSTM
+mlstm_cell = tf.contrib.rnn.MultiRNNCell([lstm_cell() for _ in range(layer_num)], state_is_tuple = True)
+
+# 全0初始化状态
+init_state = mlstm_cell.zero_state(batch_size, dtype=tf.float32)
+
 
 
